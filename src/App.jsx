@@ -10,7 +10,7 @@ function App() {
   const [forecast, setForecast] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-
+  const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
   const API_KEY = "e123ba173b35274f8c93ce6fcb44f22c";
 
   useEffect(() => {
