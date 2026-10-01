@@ -11,7 +11,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_KEY = "YOUR_API_KEY";
+  const API_KEY = "e123ba173b35274f8c93ce6fcb44f22c";
 
   useEffect(() => {
     const fetchWeather = async () => {
